@@ -1,0 +1,10 @@
+platformName: Android
+platformVersion: 4.4.2
+deviceName: 127.0.0.1:52001
+appPackage: com.cn.szb.customer
+appActivity: com.cn.szb.customer.SplashActivity
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+host: 127.0.0.1
+port: 4723

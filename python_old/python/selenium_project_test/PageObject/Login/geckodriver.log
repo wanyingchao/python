@@ -1,0 +1,65 @@
+1543195982661	geckodriver	INFO	geckodriver 0.18.0
+1543195982671	geckodriver	INFO	Listening on 127.0.0.1:52047
+1543195985874	geckodriver::marionette	INFO	Starting browser D:\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1543195991248	Marionette	INFO	Listening on port 52059
+1543195991390	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: resource://gre/components/nsPrompter.js, line 424: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: http://110.185.169.136:29090/contract/, line 62: NS_ERROR_UNEXPECTED: 
+1543196034443	Marionette	INFO	Ceased listening
+1543196090280	geckodriver	INFO	geckodriver 0.18.0
+1543196090290	geckodriver	INFO	Listening on 127.0.0.1:52245
+1543196093372	geckodriver::marionette	INFO	Starting browser D:\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1543196096740	Marionette	INFO	Listening on port 52257
+1543196097050	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1543196114751	Marionette	INFO	Ceased listening
+1543197952389	geckodriver	INFO	geckodriver 0.18.0
+1543197952399	geckodriver	INFO	Listening on 127.0.0.1:55266
+1543197955473	geckodriver::marionette	INFO	Starting browser D:\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1543197959435	Marionette	INFO	Listening on port 55282
+1543197959619	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: openTabPrompt@resource://gre/components/nsPrompter.js:420:13
+openPrompt@resource://gre/components/nsPrompter.js:535:17
+alert@resource://gre/components/nsPrompter.js:602:9
+login/<@http://110.185.169.136:29090/contract/:62:17
+i@http://110.185.169.136:29090/contract/js/jquery/jquery-3.2.1.min.js:278:122
+fireWith@http://110.185.169.136:29090/contract/js/jquery/jquery-3.2.1.min.js:280:853
+A@http://110.185.169.136:29090/contract/js/jquery/jquery-3.2.1.min.js:714:576
+c/<@http://110.185.169.136:29090/contract/js/jquery/jquery-3.2.1.min.js:722:251
+
+*************************
+JavaScript error: resource://gre/components/nsPrompter.js, line 424: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: http://110.185.169.136:29090/contract/, line 62: NS_ERROR_UNEXPECTED: 
+1543198737186	Marionette	INFO	Ceased listening
+session
+1543198424149	Marionette	INFO	Ceased listening
+1543198561751	geckodriver	INFO	geckodriver 0.18.0
+1543198561760	geckodriver	INFO	Listening on 127.0.0.1:56316
+1543198564840	geckodriver::marionette	INFO	Starting browser D:\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1543198567838	Marionette	INFO	Listening on port 56328
+1543198568067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543198588060	Marionette	INFO	Ceased listening
+1543198634909	geckodriver	INFO	geckodriver 0.18.0
+1543198634920	geckodriver	INFO	Listening on 127.0.0.1:56447
+1543198638003	geckodriver::marionette	INFO	Starting browser D:\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1543198640113	Marionette	INFO	Listening on port 56459
+1543198641129	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543198733980	Marionette	INFO	Ceased listening
+0
+1543198713681	geckodriver	INFO	Listening on 127.0.0.1:56592
+1543198716763	geckodriver::marionette	INFO	Starting browser D:\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1543198719000	Marionette	INFO	Listening on port 56604
+1543198719888	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1543198728768	Marionette	INFO	Ceased listening

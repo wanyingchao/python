@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PageObject" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PageObject/register" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PageObject/SealList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/coding-269" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/urllib/mail_module" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/urllib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/contract_po" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/contract_po/business" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basepage" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppiumPython/util" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppiumPython/base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppiumPython/business" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppiumPython/case" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppiumPython/handle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppiumPython/page" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

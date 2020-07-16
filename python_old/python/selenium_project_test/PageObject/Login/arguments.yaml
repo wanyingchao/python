@@ -1,0 +1,16 @@
+username: xs
+password: 1
+
+value: "2018050918"                            # 项目编码
+amount: 1                                     # 金额
+starttime: "2018-11-13"                         # 合同开始时间
+endtime: "2018-11-28"                           # 合同结束时间
+partvalue: "8913"                                # 甲方
+reviewtime: "2018-11-15"                         # 合同审批截至时间
+contractname: "测试合同名称"                      # 合同名称
+file_path: E:\gogoing\mmd\课件\selenium  13-14章资源.pdf               # 合同文件路径
+remark: "这是备注信息"
+approvevalue: "8911"                             # 审批
+i:
+- 0                                       # 0 是送审，1 是存草稿
+- 1

@@ -1,0 +1,10 @@
+platformName: Android
+platformVersion: 5.1.1
+deviceName: 127.0.0.1:62001
+appPackage: com.xiaomai.ageny
+appActivity: com.xiaomai.ageny.StartActivity
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+host: 127.0.0.1
+port: 4723

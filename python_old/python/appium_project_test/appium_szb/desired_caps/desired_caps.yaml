@@ -1,0 +1,10 @@
+platformName: Android
+platformVersion: 7.0
+deviceName: 621QECQ63KZTB
+appPackage: com.cn.szb.customer
+appActivity: com.cn.szb.customer.SplashActivity
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+ip: 127.0.0.1
+port: 4723

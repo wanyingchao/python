@@ -1,0 +1,144 @@
+{
+  "6": [
+    {
+      "name": "设计-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "tax": 10
+    },
+    {
+      "name": "设计-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "tax": 20
+    }
+  ],
+  "7": [
+    {
+      "name": "天棚工程-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "materials_actual_price": 10,
+      "materials_actual_cost": 10,
+      "person_actual_cost": 10,
+      "butget_note": "天棚工程-A备注"
+    },
+    {
+      "name": "天棚工程-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "materials_actual_price": 20,
+      "materials_actual_cost": 20,
+      "person_actual_cost": 20,
+      "butget_note": "天棚工程-B备注"
+    }
+  ],
+  "8": [
+    {
+      "name": "地面工程-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "materials_actual_price": 10,
+      "materials_actual_cost": 10,
+      "person_actual_cost": 10,
+      "butget_note": "地面工程-A备注"
+    },
+    {
+      "name": "地面工程-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "materials_actual_price": 20,
+      "materials_actual_cost": 20,
+      "person_actual_cost": 20,
+      "butget_note": "地面工程-B备注"
+    }
+  ],
+  "9":[
+    {
+      "name": "墙面工程-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "person_actual_cost": 10,
+      "butget_note": "墙面工程-A备注"
+    },
+    {
+      "name": "墙面工程-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "person_actual_cost": 20,
+      "butget_note": "墙面工程-B备注"
+    }
+  ],
+  "11": [
+    {
+      "name": "水电工程-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "materials_actual_price": 10,
+      "materials_actual_cost": 10,
+      "person_actual_cost": 10,
+      "butget_note": "水电工程-A备注"
+    },
+    {
+      "name": "水电工程-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "materials_actual_price": 20,
+      "materials_actual_cost": 20,
+      "person_actual_cost": 20,
+      "butget_note": "水电工程-B备注"
+    }
+  ],
+  "12": [
+    {
+      "name": "店招工程-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "materials_actual_price": 10,
+      "materials_actual_cost": 10,
+      "person_actual_cost": 10,
+      "butget_note": "店招工程-A备注"
+    },
+    {
+      "name": "店招工程-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "materials_actual_price": 20,
+      "materials_actual_cost": 20,
+      "person_actual_cost": 20,
+      "butget_note": "店招工程-B备注"
+    }
+  ],
+  "17": [
+    {
+      "name": "拆除建渣工程-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "person_actual_cost": 10,
+      "butget_note": "拆除建渣工程-A备注"
+    },
+    {
+      "name": "拆除建渣工程-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "person_actual_cost": 20,
+      "butget_note": "拆除建渣工程-B备注"
+    }
+  ],
+  "18": [
+    {
+      "name": "其它工程-A",
+      "num": 10,
+      "person_actual_price": 10,
+      "person_actual_cost": 10,
+      "butget_note": "其它工程-A备注"
+    },
+    {
+      "name": "其它工程-B",
+      "num": 20,
+      "person_actual_price": 20,
+      "person_actual_cost": 20,
+      "butget_note": "其它工程-B备注"
+    }
+  ]
+}

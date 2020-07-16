@@ -1,0 +1,10 @@
+username: 阿西吧
+password: 123456abc
+
+
+name: "这就是一个印章"
+fileloc: C:\Users\wyc\Desktop\图片\seal.png
+
+i:
+- 0              # 上传
+- 1              # 保存

@@ -6,8 +6,8 @@ file = 'E:\python\pop\pop.xlsx'
 wb = xlrd.open_workbook(filename=file)
 sheet = wb.sheet_by_index(0)
 cols = sheet.col_values(0)
-file_logs = open('E:\python\pop\POP_LOGS.txt', 'a', encoding='gbk')
-url = 'https://test.jzcdsc.com/charge/device/pop'
+file_logs = open('E:\python\pop\POP_LOGS.txt', 'a', encoding='utf8')
+url = 'https://www.jzcdsc.com/charge/device/pop'
 
 
 def pop():
@@ -19,7 +19,7 @@ def pop():
         'Content Type': 'application.json;charset=utf-8',
     }
     r = requests.post(url, par, body, verify=True)
-    result = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')) + ' ' + deviceid + " " + str(slot) + "口" + r.text
+    result = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')) + ' ' + deviceid + " " + str(slot) + " " + r.text
     print(result)
     file_logs.write(result + '\n')
 

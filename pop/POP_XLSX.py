@@ -19,7 +19,7 @@ def pop():
         'Content Type': 'application.json;charset=utf-8',
     }
     r = requests.post(url, par, body, verify=True)
-    result = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')) + ' ' + deviceid + " " + str(slot) + " " + r.text
+    result = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')) + ' ' + deviceid + " " + str(slot) + "口" + r.text
     print(result)
     file_logs.write(result + '\n')
 

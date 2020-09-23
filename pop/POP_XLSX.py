@@ -41,7 +41,7 @@ def pop_all():
                 pop(deviceid, slot)
 
 
-# pop_one('JZCB061904001009', '24')
+# pop_one('JZCB061904001009', (1, 4))
 pop_all()
 
 file_logs.close()

@@ -6,15 +6,15 @@
 </head>
 <body>
 <form action="http://192.168.0.93:8888/pop" method="POST" style="padding-left:10px">
-    <div>此功能仅限本办公室使用</div>
+    <div style="color:red;font-size:20px">此功能仅限本办公室使用</div>
     <br>
-    <div>设备ID(多个设备以英文','隔开):</div>
-    <input type="text" name="data" size="100"> <br>
+    <div style="font-size:20px">设备ID:<small><i>(全弹时支持多个设备，多个设备以英文','隔开;填写了下方孔位时只允许填入一个设备ID)</i></small></div>
+    <input type="text" name="data" size="100" style="height:20px"> <br>
     <br>
-    孔位（不填则全弹，多个孔位以英文','隔开）:<br>
-    <input type="text" name="slot"> <br>
+    <div style="font-size:20px">孔位:<small><i>（不填则全弹，多个孔位以英文','隔开）</i></small></div>
+    <input type="text" name="slot" style="height:20px"> <br>
     <br>
-    <input type="submit" value="提交" >
+    <div><input type="submit" value="提交" style="width:100px;height:50px;font-size:20px"></div>
 </form>
 </body>
 </html>

@@ -25,25 +25,32 @@ server = Flask(__name__)  # Flask必须创建程序实例，Flask类只有一个
 @server.route('/pop', methods=['post'])  # 文件路径/pop，方法post
 def pop_all():
     text = []
+    slots_list = request.form['slot']
     cols = request.form['data']
     col = cols.split(',')
-    for deviceid in col:
-        if deviceid[4] + deviceid[5] == '06':
-            for slot in range(1, 7):
-                pop(deviceid, slot, text)
-                if slot == 6:
-                    text.append('---------------------------------------------------------------------------------------')
-        elif deviceid[4] + deviceid[5] == '09':
-            for slot in range(1, 10):
-                pop(deviceid, slot, text)
-                if slot == 9:
-                    text.append('---------------------------------------------------------------------------------------')
-        else:
-            for slot in range(1, 13):
-                pop(deviceid, slot, text)
-                if slot == 12:
-                    text.append('---------------------------------------------------------------------------------------')
+    if len(slots_list) == 0:
+        for deviceid in col:
+            if deviceid[4] + deviceid[5] == '06':
+                for slot in range(1, 7):
+                    pop(deviceid, slot, text)
+                    if slot == 6:
+                        text.append('---------------------------------------------------------------------------------------')
+            elif deviceid[4] + deviceid[5] == '09':
+                for slot in range(1, 10):
+                    pop(deviceid, slot, text)
+                    if slot == 9:
+                        text.append('---------------------------------------------------------------------------------------')
+            else:
+                for slot in range(1, 13):
+                    pop(deviceid, slot, text)
+                    if slot == 12:
+                        text.append('---------------------------------------------------------------------------------------')
+
+    else:
+        slots = slots_list.split(',')
+        for slot in slots:
+            pop(deviceid=cols, slot=slot, text=text)
     return render_template('index.html', text=text)
 
 
-server.run(port=8888)
+server.run(host='192.168.0.93', port=8888)

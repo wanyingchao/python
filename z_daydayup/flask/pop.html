@@ -5,15 +5,27 @@
     <title>pop</title>
 </head>
 <body>
-<form action="http://192.168.0.93:8888/pop" method="POST" style="padding-left:10px">
-    <div style="color:red;font-size:20px">此功能仅限本办公室使用</div>
+<form action="http://192.168.0.93:8888/pop" method="POST" enctype="multipart/form-data" style="padding-left:20px">
+    <h2 style="color:red">此功能仅限本办公室使用</h2>
+    <h5>以下功能二选一</h5>
+    <div>1.如需全弹多个设备，请上传后缀名为xlsx的excel文件</div>
     <br>
-    <div style="font-size:20px">设备ID:<small><i>(全弹时支持多个设备，多个设备以英文','隔开;填写了下方孔位时只允许填入一个设备ID)</i></small></div>
+    <input type="file" name="excel">
+    <br>
+    <br>
+    <br>
+    <hr />
+    <div>2.仅支持单个设备的单弹或全弹</div>
+    <br>
+    <div>设备ID:<small><i>(仅允许填写一个设备ID)</i></small></div>
     <input type="text" name="data" size="100" style="height:20px"> <br>
     <br>
-    <div style="font-size:20px">孔位:<small><i>（不填则全弹，多个孔位以英文','隔开）</i></small></div>
+    <div>孔位:<small><i>（不填则全弹，多个孔位以英文','隔开）</i></small></div>
     <input type="text" name="slot" style="height:20px"> <br>
     <br>
+    <br>
+    <br>
+    <hr />
     <div><input type="submit" value="提交" style="width:100px;height:50px;font-size:20px"></div>
 </form>
 </body>

@@ -46,3 +46,37 @@
 2020-05-26 09:51:06,767 login.py[line:16] INFO:输入手机号
 2020-05-26 09:51:07,965 login.py[line:20] INFO:输入密码
 2020-05-26 09:51:09,063 login.py[line:24] INFO:点击登录按钮
+2020-09-04 15:41:56,921 test_login.py[line:13] INFO:test_login_both_null>>>>>>>>>>>>>>开始用例
+2020-09-04 15:41:56,922 login.py[line:13] INFO:输入电话号码
+2020-09-04 15:41:57,038 login.py[line:17] INFO:输入密码
+2020-09-04 15:41:57,137 login.py[line:21] INFO:点击登录
+2020-09-04 15:41:57,224 test_login.py[line:48] INFO:断言，判断页面是否登录失败
+2020-09-04 15:42:01,263 test_login.py[line:68] ERROR:test_login_both_null (test_login.WebLogin)
+2020-09-04 15:42:01,263 test_login.py[line:69] ERROR:(<class 'AssertionError'>, AssertionError("'' != '登录名不能为空'\n+ 登录名不能为空",), <traceback object at 0x00000264FA7940C8>)
+2020-09-04 15:42:03,862 test_login.py[line:72] INFO:test_login_both_null>>>>>>>>>>>>>>完成用例
+2020-09-04 15:42:14,534 test_login.py[line:13] INFO:test_login_fail>>>>>>>>>>>>>>开始用例
+2020-09-04 15:42:14,535 login.py[line:13] INFO:输入电话号码
+2020-09-04 15:42:14,694 login.py[line:17] INFO:输入密码
+2020-09-04 15:42:14,815 login.py[line:21] INFO:点击登录
+2020-09-04 15:42:14,894 test_login.py[line:57] INFO:断言，判断页面是否登录失败
+2020-09-04 15:42:20,920 test_login.py[line:72] INFO:test_login_fail>>>>>>>>>>>>>>完成用例
+2020-09-04 15:42:31,794 test_login.py[line:13] INFO:test_login_pwd_null>>>>>>>>>>>>>>开始用例
+2020-09-04 15:42:31,794 login.py[line:13] INFO:输入电话号码
+2020-09-04 15:42:32,017 login.py[line:17] INFO:输入密码
+2020-09-04 15:42:32,124 login.py[line:21] INFO:点击登录
+2020-09-04 15:42:32,201 test_login.py[line:39] INFO:断言，判断页面是否登录失败
+2020-09-04 15:42:38,249 test_login.py[line:72] INFO:test_login_pwd_null>>>>>>>>>>>>>>完成用例
+2020-09-04 15:42:49,229 test_login.py[line:13] INFO:test_login_success>>>>>>>>>>>>>>开始用例
+2020-09-04 15:42:49,229 login.py[line:13] INFO:输入电话号码
+2020-09-04 15:42:49,471 login.py[line:17] INFO:输入密码
+2020-09-04 15:42:49,611 login.py[line:21] INFO:点击登录
+2020-09-04 15:42:49,705 test_login.py[line:19] INFO:断言，判断页面是否登录成功
+2020-09-04 15:42:53,852 test_login.py[line:68] ERROR:test_login_success (test_login.WebLogin)
+2020-09-04 15:42:53,852 test_login.py[line:69] ERROR:(<class 'AssertionError'>, AssertionError("'' != '登录成功！'\n+ 登录成功！",), <traceback object at 0x00000264FB62D588>)
+2020-09-04 15:42:56,014 test_login.py[line:72] INFO:test_login_success>>>>>>>>>>>>>>完成用例
+2020-09-04 15:43:06,674 test_login.py[line:13] INFO:test_login_username_null>>>>>>>>>>>>>>开始用例
+2020-09-04 15:43:06,675 login.py[line:13] INFO:输入电话号码
+2020-09-04 15:43:06,796 login.py[line:17] INFO:输入密码
+2020-09-04 15:43:06,945 login.py[line:21] INFO:点击登录
+2020-09-04 15:43:07,020 test_login.py[line:29] INFO:断言，判断页面是否登录失败
+2020-09-04 15:43:13,517 test_login.py[line:72] INFO:test_login_username_null>>>>>>>>>>>>>>完成用例

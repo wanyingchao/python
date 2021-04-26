@@ -8,14 +8,14 @@ class WebLogin(unittest.TestCase, Page):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
-        self.driver.get('https://rainbow.mynatapp.cc//bms/#/login')
+        self.driver.get('https://test.jzcdsc.com/bms/#/login')
         test_name = self._testMethodName + '>>>>>>>>>>>>>>开始用例'
         logger.info(test_name)
 
     def test_login_success(self):
         """成功登录"""
         driver = self.driver
-        user_login(driver, username='18500001113', pwd='123456')
+        user_login(driver, username='13990181556', pwd='123456')
         logger.info('断言，判断页面是否登录成功')
         time.sleep(0.5)
         # 获取登录成功后飘窗的文本信息

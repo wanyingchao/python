@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gitee
+Version: 0.0.1
+Summary: gitee tools
+Home-page: UNKNOWN
+Author: seal
+Author-email: seal.xu@qq.com
+License: UNKNOWN
+Description: MyNote
+        
+        * twine upload dist/*
+        * python setup.py sdist build
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown

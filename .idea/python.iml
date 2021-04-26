@@ -9,9 +9,11 @@
       <sourceFolder url="file://$MODULE_DIR$/ILIKETEST/appium/BASE" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ILIKETEST/appium/LOGIN" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ILIKETEST/appium/adb_start_appium" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/z_daydayup/flask" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/z_daydayup/flask/log" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

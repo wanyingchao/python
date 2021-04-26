@@ -25,11 +25,12 @@ def pop_one(deviceid, slots):
 
 
 def pop_all():
-    file = 'E:\python\pop\pop.xlsx'
-    wb = xlrd.open_workbook(filename=file)
-    sheet = wb.sheet_by_index(0)
-    cols = sheet.col_values(0)
-    for deviceid in cols:
+    # file = 'E:\python\pop\pop.xlsx'
+    # wb = xlrd.open_workbook(filename=file)
+    # sheet = wb.sheet_by_index(0)
+    # cols = sheet.col_values(0)
+    # for deviceid in cols:
+        deviceid = 'JZCB121907000953'
         if deviceid[4] + deviceid[5] == '06':
             for slot in range(1, 7):
                 pop(deviceid, slot)
@@ -41,7 +42,7 @@ def pop_all():
                 pop(deviceid, slot)
 
 
-# pop_one('JZCB061904001009', (1, 4))
+# pop_one('JZCB061904000179', '6')
 pop_all()
 
 file_logs.close()
